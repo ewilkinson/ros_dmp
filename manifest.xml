@@ -1,0 +1,27 @@
+<package>
+  <description brief="ubot_dmp">
+
+     ubot_dmp
+
+  </description>
+  <author>Eric Wilkinson</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+	<depend package="rospy"/>
+	<depend package="roscpp"/>
+	<depend package="actionlib"/>
+	<depend package="actionlib_msgs"/>
+	<depend package="geometry_msgs"/>
+	<depend package="std_msgs"/>
+	<depend package="rosbag"/>
+ 	<depend package="visualization_msgs"/>
+
+
+	<depend package="tf"/>
+ 	<depend package="kdl"/>
+	<depend package="kdl_parser"/>
+
+ 	<depend package="ubot_msgs"/>
+</package>
+
+

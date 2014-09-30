@@ -1,0 +1,21 @@
+# define the goalmessage
+
+# Must be all twelve joints.
+float32[] goal_pos 
+
+# selection bitmask: only joint whose bit are 1 will are commanded
+int32 bitmask
+
+# time parameter tau as specified in 2013 schaal paper. 1 means normal time (what DMP was recorded at)
+float32 tau
+
+# Where to find the DMP in the library. This should match the file structure of the pickles folder
+string dmp_id
+string shelf
+string section
+---
+# define the result message
+uint32 success
+---
+# define a feedback message
+float32 percent_complete
